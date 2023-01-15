@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workouts</title>
+    <script defer src="main.js"></script>
+    <script defer src="main5.js"></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<header X-API-Key ></header>
+<body>
+
+    <span id="logo_container">
+        <img id="logo" src="./assets/New_Year_New_Fit_Logo.png" alt="Logo">
+        </span>
+        <h4>Good Things Come To Those Who Do!</h4>
+        <header>
+            <nav>
+                <ul>
+                    <li id="home" ><a href="index.html">Home</a></li>
+                    <li id="about" ><a href="about.html">About</a></li>
+                    <li id="contact" ><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    
+  
+    <main>
+        <h1>TEST</h1>
+        <form id="workout_form">
+            <h3>Select Your Workout and Difficulty Level</h3> 
+            
+            <select id="body_part">
+                <!-- <option value="biceps">biceps</option> -->
+                <!-- <option value="abductors">abductors</option> -->
+                <!-- <option value="adductors">adductors</option> -->
+                <!-- <option value="calves">calves</option> -->
+                <!-- <option value="forearms">forearms</option> -->
+                <!-- <option value="quadriceps">quadriceps</option> -->
+                <!-- <option value="hamstrings">hamstrings</option> -->
+                <!-- <option value="traps">traps</option> -->
+                <!-- <option value="lats">lats</option> -->
+                <!-- <option value="middle_back">middle back</option> -->
+                <!-- <option value="obliques">obliques</option> -->
+                <!-- <option value="tricep">tricep</option> -->
+                <!-- <option value="lower_back">lower back</option> -->
+                <!-- <option value="upper_back">upper back</option> -->
+                <option value="chest">chest</option>
+                <!-- <option value="shoulder">shoulder</option> -->
+                <option value="abdominals">abs</option>
+                <!-- <option value="glutes">glutes</option> -->
+            </select>
+
+            <select id="difficulty_level"> 
+                <option value="beginner">beginner</option>
+                <option value="intermediate">intermediate</option>
+                <option value="expert">expert</option> 
+            </select>
+        
+
+        
+
+        
+            <input id="submit_button" type="submit" value="Submit">
+        </form>
+        <br> <br>
+        
+    </main>
+    
+    <section id="response-section"></section>
+    <br> <br> <br> <br> <br> <br>
+    <!-- <script defer src="main.js"></script> -->
+
+    
+
+    <section id="calories_maintence">
+        <h3 id="check_cal_maintence">Calories Need to Gain, Lose, or Maintain Body Weight</h3>
+        <form>
+            <h4 id="US_Measurement"><a href="index2.html"> US Units</a></h4>
+            <h4 id="Metric_Meaurement"><a href="index3.html"> Metric Units</a></h4>
+            <p id="require">* This field is required</p>
+            <label for="age">Age: *</label>
+            <input required id="age1" type="number"> 
+            <label for="age">ages 15 - 80</label> <br> <br>
+
+            <span class="genders">
+            <p>Gender: *</p>
+ 
+            <label for="male">Male:</label>
+            <input required name="gender" class="gender1" type="radio" value="Male">
+
+            <label for="female">Female:</label>
+            <input required name="gender" class="gender1" type="radio" value="Female"> <br> <br>
+        </span>
+            
+            <label for="height">Height: *</label>
+            <input required id="height1" type="number"> 
+            <label for="height">centimeters</label> <br> <br>
+
+            <label for="weight">Weight: *</label>
+            <input required id="weight1" type="number"> 
+            <label for="weight">kilograms</label> <br> <br>
+
+            <select name="activity_level2" id="activity_level2">
+                <option class="activity_level" value="BMR">Basal Metabolic Rate</option>
+                <option class="activity_level" value="sedentary">Sedentary: little to no exercise</option>
+                <option class="activity_level" value="lightly_active">Light: exercise 1-3 times a week</option>
+                <option class="activity_level" value="moderately_active">Moderate: exercise 4-5 times a week</option>
+                <option class="activity_level" value="active">Active: daily exercise or intense 3-4 times a week</option>
+                <option class="activity_level" value="very_active">Very Active: intense exercise 6-7 times a week</option>
+                <option class="activity_level" value="extra_active">Extra Active: very intense exercise daily, or physical job</option>
+            </select> <br> <br>
+            
+            <input id="submit_button4" type="submit" value="Calculate">
+
+            <p id="calorie_info1"></p>
+
+    </section>
+    <br> <br> <br> <br> <br> <br>
+
+    <section id="check_food_calories">
+        <h3 id="calories_title">Check the calories of your favorite foods!</h3>
+        <form>
+        <input id="food" type="text">
+        <input class="submit_button3" type="submit" value="Submit" autocomplete="on">
+
+        <p id="food_input"></p>
+    </form>
+    
+        
+    </section>
+
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+    <footer>
+        <p>© 2023 New Year New Fit</p>
+    </footer>
+</body>
+</html>
