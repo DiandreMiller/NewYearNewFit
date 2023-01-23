@@ -4,10 +4,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="main.js"></script>
+    <title>Workouts</title>
+    <script defer src="main.js"></script>
+    <script defer src="main4.js"></script>
+    <link rel="stylesheet" href="style2.css">
 </head>
+
+<header X-API-Key ></header>
 <body>
-     <a href=""><p>hi my name is bobbery</p></a>
+
+    <h1>Hi my name is bobbery</h1>
+
+    <span id="logo_container">
+        <img id="logo" src="./assets/New_Year_New_Fit_Logo.png" alt="Logo">
+        </span>
+        <h4>Good Things Come To Those Who Do!</h4>
+        <header>
+            <nav>
+                <ul>
+                    <li id="home" ><a href="index.html">Home</a></li>
+                    <li id="get_started"><a href="index2.html">Get Started</a></li>
+                    <li id="about" ><a href="about.html">About</a></li>
+                    <li id="contact" ><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    
+  
+    <main>
+        <form id="workout_form">
+            <h3>Select Your Workout and Difficulty Level</h3> 
+            
+            <select id="body_part">
+                <!-- <option value="biceps">biceps</option> -->
+                <!-- <option value="abductors">abductors</option> -->
+                <!-- <option value="adductors">adductors</option> -->
+                <!-- <option value="calves">calves</option> -->
+                <!-- <option value="forearms">forearms</option> -->
+                <!-- <option value="quadriceps">quadriceps</option> -->
+                <!-- <option value="hamstrings">hamstrings</option> -->
+                <!-- <option value="traps">traps</option> -->
+                <!-- <option value="lats">lats</option> -->
+                <!-- <option value="middle_back">middle back</option> -->
+                <!-- <option value="obliques">obliques</option> -->
+                <!-- <option value="tricep">tricep</option> -->
+                <!-- <option value="lower_back">lower back</option> -->
+                <!-- <option value="upper_back">upper back</option> -->
+                <option value="chest">chest</option>
+                <!-- <option value="shoulder">shoulder</option> -->
+                <option value="abdominals">abs</option>
+                <!-- <option value="glutes">glutes</option> -->
+            </select>
+
+            <select id="difficulty_level"> 
+                <option value="beginner">beginner</option>
+                <option value="intermediate">intermediate</option>
+                <option value="expert">expert</option> 
+            </select>
+        
+
+        
+
+        
+            <input id="submit_button" type="submit" value="Submit">
+            
+        </form>
+        <br> <br>
+
+        <video id="video" controls></video>
+        <div id="instructions"></div>
+
+        <section id="response-section">
+            <div id="instructions"></div>
+            <!-- <video id="video" controls></video> -->
+            <iframe id="video" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </section>
+        
+    </main>
+    
+    <section id="response-section"></section>
+    <br> <br> <br> <br> <br> <br>
+    <!-- <script defer src="main.js"></script> -->
+
+    
+
+    <section id="calories_maintence">
+        <h3 id="check_cal_maintence">Calories Need to Gain, Lose, or Maintain Body Weight</h3>
+        <form>
+            <h4 id="US_Measurement"><a href="index2.html"> US Units</a></h4>
+            <h4 id="Metric_Meaurement"><a href="index3.html"> Metric Units</a></h4>
+            <p id="require">* This field is required</p>
+            <label for="age">Age: *</label>
+            <input required id="age" type="number"> 
+            <label for="age">ages 15 - 80</label> <br> <br>
+
+            <span class="genders">
+            <p>Gender: *</p>
+ 
+            <label for="male">Male:</label>
+            <input required name="gender" class="gender" type="radio" value="Male">
+
+            <label for="female">Female:</label>
+            <input required name="gender" class="gender" type="radio" value="Female"> <br> <br>
+        </span>
+            
+            <label for="height">Height: *</label>
+            <input required id="height" type="number"> 
+            <label for="height">feet (1-7)</label>
+            <input required id="height2" type="number">
+            <label for="height2">inches (0-11)</label> 
+            <br> <br>
+
+            <label for="weight">Weight: *</label>
+            <input required id="weight" type="number"> <br> <br>
+
+            <select name="activity_level1" id="activity_level1">
+                <option class="activity_level" value="BMR">Basal Metabolic Rate</option>
+                <option class="activity_level" value="sedentary">Sedentary: little to no exercise</option>
+                <option class="activity_level" value="lightly_active">Light: exercise 1-3 times a week</option>
+                <option class="activity_level" value="moderately_active">Moderate: exercise 4-5 times a week</option>
+                <option class="activity_level" value="active">Active: daily exercise or intense 3-4 times a week</option>
+                <option class="activity_level" value="very_active">Very Active: intense exercise 6-7 times a week</option>
+                <option class="activity_level" value="extra_active">Extra Active: very intense exercise daily, or physical job</option>
+            </select> <br> <br>
+
+            
+            <input class="submit_button2" type="submit" value="Calculate" autocomplete="on"> 
+
+            <p id="calorie_info"></p>
+        </form>
+
+    </section>
+    <br> <br> <br> <br> <br> <br>
+
+    <section id="check_food_calories">
+        <h3 id="calories_title">Check the calories of your favorite foods!</h3>
+        <form>
+        <input id="food" type="text">
+        <input class="submit_button3" type="submit" value="Submit" autocomplete="on">
+    </form>
+    
+        <p id="food_input"></p>
+    </section>
+
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+    <footer>
+        <p>© 2023 New Year New Fit</p>
+    </footer>
 </body>
 </html>

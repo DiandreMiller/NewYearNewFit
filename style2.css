@@ -1,3 +1,7 @@
+/* *{
+    border: 2px solid red;
+} */
+
 body{
     background-color: rgb(0, 186, 253);
     background-image: radial-gradient(circle, rgb(17, 174, 213), whitesmoke);
@@ -7,7 +11,7 @@ body{
 #logo_container{
     
     background: url(../images/logo.png) no-repeat;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: span 2;
     width: 40%;
@@ -42,22 +46,24 @@ h4{
     
 }
 
-#home, #about, #contact{
+#home, #about, #contact, #get_started{
     display: inline-block;
     margin-right: 2%;
     font-size: 20px;
-
-
-
+    /* border: 2px solid red; */
 }
 
-#home a, #about a, #contact a{
+#home{
+    margin-left: -30px;
+}
+
+#home a, #about a, #contact a #get_started a{
     color: purple;
     text-decoration: none;
     /* why doesn't this work */
 }
 
-#home :hover, #about :hover, #contact :hover{
+#home :hover, #about :hover, #contact :hover #get_started :hover{
     color: red;
     text-decoration: none;
 }
@@ -69,11 +75,35 @@ h4{
     text-decoration: none;
 }
 
-#calories_maintence, #check_food_calories{
-    border: 2px solid red;
+#calories_maintence{
+    /* border: 2px solid red; */
+    width: 37%;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 0px -10px 10px 5px #00648b, 10px 0px 10px 5px #00648b, -10px 0px 10px 5px #00648b;
+    border-radius: 30px;
+
 }
 
-#US_Measurement, #Metric_Meaurement{
+#check_food_calories{
+    box-shadow: 0px -10px 10px 5px #00648b, 10px 0px 10px 5px #00648b, -10px 0px 10px 5px #00648b;
+    width: 25%;
+    height: 10%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 10px;
+    border-radius: 30px;
+
+}
+
+#food{
+    margin-left: 10px;
+}
+
+#US_Measurement, #Metric_Measurement{
     display: inline-block;
 }
 
@@ -108,3 +138,134 @@ h4{
 footer{
     color: goldenrod;
 }
+
+.top_button {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    display: none;
+}
+
+button{
+    display: grid;
+    justify-content: right;
+    background-color: whitesmoke;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    margin-left: 85%;
+
+}
+
+#instructions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 90%;
+    height: 90%;
+    grid-gap: 10px;
+    text-align: justify;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid red;
+}
+
+th, td {
+    padding: 8px;
+    border: 2px solid red;
+}
+
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+}
+
+#prev, #next {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#prev:hover, #next:hover {
+    background-color: #dddddd;
+}
+
+
+.youtube{
+    margin-bottom: 5px;
+}
+
+
+
+.facebook:hover, 
+.instagram:hover, 
+.twitter:hover, 
+.youtube:hover, 
+.tik_tok:hover, 
+.snapchat:hover, 
+.linkedin:hover{
+    border: 2px solid red;
+}
+
+#video{
+    margin: 10px;
+    border-radius: 30px;
+    
+}
+
+#workout_form{
+    margin-left: 10px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: goldenrod;
+    margin-top: -5px;
+    margin-left: 7px;
+    padding-left: 1.5%;
+    width: 20%;
+    
+}
+
+#click-for-exercise{
+    margin-left: 10px;
+}
+
+#instructions{
+    margin-left: 10px;
+}
+
+#response-section{
+margin-left: 10px;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+/* #submit_button{
+    margin-left: 10px;
+} */
+

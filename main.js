@@ -6,6 +6,8 @@ const responseSection = document.querySelector('#response-section');
 const videoElement = document.getElementById('video');
 const instructionElement = document.getElementById('instructions');
 
+
+
 submitButton.addEventListener('click', (event) => {
     event.preventDefault();
     const options = {
@@ -28,14 +30,18 @@ submitButton.addEventListener('click', (event) => {
                   const workoutDescription = document.createElement('p');
                   workoutDescription.innerHTML = `<p>Exercise: ${workout.name}</p>`;
                   workoutDescription.classList.add('workout');
-                  workoutDescription.setAttribute("data-instructions", workout.instructions);
-                  workoutDescription.setAttribute("data-video", "https://www.youtube.com/watch?v=p243tCuvAfY");
                   // Add event listener to workout element
                   workoutDescription.addEventListener('click', function (event) {
                       // Update the instruction element with the workout details
                       instructionElement.innerHTML = workout.instructions;
                       // Update the video element with the video URL
-                      videoElement.src = event.target.getAttribute("data-video");
+                    console.log('100',workout.name)
+                    if (workout.name == "Bodyweight Flyes") {
+                        videoElement.src = "https://www.youtube.com/watch?v=p243tCuvAfY";
+                      }
+                      else if(workout.name == "push ups"){
+                        videoElement.src = "https://www.youtube.com/watch?v=p243tCuvAfY";
+                      }
                       videoElement.classList.remove("hide");
                       // Remove the selected class from all workout elements
                       const allWorkouts = document.querySelectorAll('.workout');
@@ -53,4 +59,27 @@ submitButton.addEventListener('click', (event) => {
             });
             
         })
+
 });  
+
+// Get the button
+let topButton = document.querySelector(".top_button");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    topButton.style.display = "block";
+  } else {
+    topButton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+topButton.addEventListener("click", function(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+});
+
+

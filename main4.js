@@ -14,36 +14,37 @@ const paragraph = document.querySelector('#food_input');
 
 submitButton3.addEventListener('click', (event) => {
     event.preventDefault();
-    const BASE_URL = `https://calorieninjas.p.rapidapi.com/v1/nutrition?query=${food.value}`;
-    console.log('11',BASE_URL, food.value)
-    fetch(BASE_URL, option)
-        .then(response => response.json())
-        .then(result => {
-            console.log(Array.isArray(result))
-            console.log(typeof result, '14',result)
+    if (!food.value) {
+        paragraph.textContent = "Please enter a valid food item.";
+    } else {
+        const BASE_URL = `https://calorieninjas.p.rapidapi.com/v1/nutrition?query=${food.value}`;
+        fetch(BASE_URL, option)
+            .then(response => {
+                if(!response.ok) {
+                    throw new Error('Invalid food input');
+                }
+                return response.json();
+            })
+            .then(result => {
+                if(result.items.length === 0) {
+                    throw new Error('Invalid food input');
+                }
+                function displayCalories() {
+                    let items = result.items;
+                    for (let item of items) {
+                        paragraph.textContent = `Food: ${item.name}; Calories: ${item.calories}; Carbs: ${item.carbohydrates_total_g}g; Cholesterol: ${item.cholesterol_mg}mg; Fat: ${item.fat_total_g}g; Protein: ${item.protein_g}g; Sodium: ${item.sodium_mg}mg; Sugar: ${item.sugar_g}g; Fiber: ${item.fiber_g}g; Potassium: ${item.potassium_mg}mg; Serving Size: ${item.serving_size_g}g; `;
+                    }
+                }
+                displayCalories();
+            })
+            .catch(err => {
+                paragraph.textContent = "Invalid food input";
+                console.error(err);
+            });
+    }
+});
 
-            //Function to display calories of food selected by the user to the main page
 
-    function displayCalories() {
-        let items = result.items;
-        for (let item of items) {
-         console.log('4',item.name, item.calories)
-         paragraph.textContent = `Food: ${item.name}; Calories: ${item.calories}; Carbs: ${item.carbohydrates_total_g}g; Cholesterol: ${item.cholesterol_mg}mg; Fat: ${item.fat_total_g}g; Protein: ${item.protein_g}g; Sodium: ${item.sodium_mg}mg; Sugar: ${item.sugar_g}g; Fiber: ${item.fiber_g}g; Potassium: ${item.potassium_mg}mg; Serving Size: ${item.serving_size_g}g; `;
-        //figure out why I can't get a new line to display
-            //add error message for invalid food input
-        }
-            }
-            displayCalories();
-
-
-
-              
-
-
-        })
-    
-        .catch(err => console.error(err));
-})
 
 
 const submitButton2 = document.querySelector('.submit_button2');
@@ -58,7 +59,7 @@ submitButton2.addEventListener('click', (event) => {
         const height = parseFloat(document.querySelector('#height').value);
         const inches = parseFloat(document.querySelector('#height2').value);
         const age = parseFloat(document.querySelector('#age').value);
-        const activityLevel = document.querySelector('.activity_level').value;
+        const activityLevel = document.querySelector('#activity_level1').value;
         const genderElements = document.querySelectorAll('.gender');
         let gender = '';
         for (let i = 0; i < genderElements.length; i++) {
@@ -98,6 +99,7 @@ let mildWeightGain = 500;
 let moderateWeightGain = 1000;
 let extremeWeightGain = 2000;
 
+console.log(typeof activityLevel)
         
 switch (activityLevel) {
     case "BMR":
@@ -120,9 +122,11 @@ switch (activityLevel) {
         break;
     default:
         alert("Invalid activity level input. Please select one of the options.");
+
+        console.log(activityLevel, maintenanceCalories)
         
 }
-
+        
 
         document.querySelector("#calorie_info").innerHTML = `
         
@@ -135,12 +139,16 @@ switch (activityLevel) {
         <strong>Moderate Weight Gain:</strong> ${Math.ceil(maintenanceCalories + moderateWeightGain)} calories - 1 pound a week<br>
         <strong>Extreme Weight Gain:</strong> ${Math.ceil(maintenanceCalories + extremeWeightGain)} calories - 2 pounds a week`;
 
+        
 
     }
+
     calculateMaintenanceCaloriesUS();
 
 
    
 
 })
+
+
 
