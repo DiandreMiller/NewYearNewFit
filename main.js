@@ -35,14 +35,25 @@ submitButton.addEventListener('click', (event) => {
                       // Update the instruction element with the workout details
                       instructionElement.innerHTML = workout.instructions;
                       // Update the video element with the video URL
-                    console.log('100',workout.name)
+                    const video = document.querySelector('#video')
+                    
                     if (workout.name == "Bodyweight Flyes") {
-                        videoElement.src = "https://www.youtube.com/watch?v=p243tCuvAfY";
-                      }
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/gSTCYWHLRnw"
+                      
+                    }
+
+                    if (workout.name == "Wide-grip bench press") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/yVpUZ0Tbk2M"
+                    }
+
+                    if (workout.name == "Wide-Grip Decline Barbell Bench Press") {
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/_HdG2PBgCcw"
+                     }
+                    
                       else if(workout.name == "push ups"){
-                        videoElement.src = "https://www.youtube.com/watch?v=p243tCuvAfY";
+                        video.src = "https://www.youtube.com/watch?v=p243tCuvAfY";
                       }
-                      videoElement.classList.remove("hide");
+                      video.classList.remove("hide");
                       // Remove the selected class from all workout elements
                       const allWorkouts = document.querySelectorAll('.workout');
                       allWorkouts.forEach(w => w.classList.remove('selected'));

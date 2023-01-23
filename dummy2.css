@@ -431,7 +431,7 @@ button{
         /* border: 2px solid red; */
         display: grid;
         grid-template-columns: span 2;
-        width: 80%;
+        width: 60%;
         height: 40%;
         margin: 5px;
         padding: 5px;
@@ -448,8 +448,8 @@ button{
         margin-top: -5px;
         margin-left: 30px;
         padding-left: 1.5%;
-        width: 55%;
-        font-size: 35px;
+        width: 40%;
+        font-size: 25px;
     }
 
     #home, #about, #contact, #get_started{
@@ -525,7 +525,7 @@ button{
         
         display: grid;
          margin-left: 222px;
-         margin-top: -86px;
+         margin-top: -63px;
  
      }
  
@@ -554,6 +554,10 @@ button{
         right: 100px;
         margin-bottom: 70px;
 
+     }
+
+     #check_cal_maintence{
+         font-size: 28px;
      }
 
 
