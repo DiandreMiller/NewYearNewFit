@@ -36,7 +36,8 @@ submitButton.addEventListener('click', (event) => {
                       instructionElement.innerHTML = workout.instructions;
                       // Update the video element with the video URL
                     const video = document.querySelector('#video')
-                    
+
+                    // Easy Chest Workouts
                     if (workout.name == "Bodyweight Flyes") {
                       video.contentWindow.location.href = "https://www.youtube.com/embed/gSTCYWHLRnw"
                       
@@ -48,11 +49,92 @@ submitButton.addEventListener('click', (event) => {
 
                     if (workout.name == "Wide-Grip Decline Barbell Bench Press") {
                       video.contentWindow.location.href = "https://www.youtube.com/embed/_HdG2PBgCcw"
+                    }
+                    
+                    if (workout.name == "Reverse-grip incline dumbbell bench press") {
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/J5iwMYSZ7cE"
+                    }
+                    
+                    if (workout.name == "Drop Push") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/xeYtZkHNPjg"
+                    }
+
+                    if (workout.name == "Neck Press") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/y90T12sTukg"
+                    }
+
+                    if (workout.name == "Incline cable chest press") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/chvZZIWje0M"
+                    }
+
+                    if (workout.name == "Cable Chest Press") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/FVWJglwid4I"
+                    }
+
+                    if (workout.name == "Hands-elevated push-up") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/HmZcKSDlIYc"
+                    }
+
+                    if (workout.name == "Cable Chest Press") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/FVWJglwid4I"
+                    }
+
+                    //Intermediate Chest Workouts
+                    if (workout.name == "Dumbbell Bench Press") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/VmB1G1K7v94"
+                    }
+
+                    if (workout.name == "Pushups") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/JyCG_5l3XLk"
+                    }
+
+                    if (workout.name == "Close-grip bench press") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/-ngr1UfPerI"
+                    }
+
+                    if (workout.name == "Dumbbell Flyes") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/UKwkChzThig"
+                    }
+
+                    if (workout.name == "Incline dumbbell bench press") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/IP4oeKh1Sd4"
+                    }
+
+                    if (workout.name == "Low-cable cross-over") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/77UbTnqvVzE"
+                    }
+
+                    if (workout.name == "Barbell Bench Press - Medium Grip") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/gRVjAtPip0Y"
+                    }
+
+                    if (workout.name == "Chest dip") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/sM6XUdt1rm4?start=122"
+                    }
+
+                    if (workout.name == "Decline Dumbbell Flyes") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/ilcbmIoz9S4"
+                    }
+
+                    if (workout.name == "Incline cable chest fly") {
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/GtHNC-5GtR0"
+                    }
+                    
+                    //Easy Ab Workouts
+
+                    if (workout.name == "Dumbbell spell caster") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/fxL497_e6WI"
+                    }
+
+                    if (workout.name == "Plate Twist") {
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/pDTHSnoGoEc"
+                    }
+                    
+                    if (workout.name == "Gorilla Chin/Crunch") {
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/5LZEO-tQ5Rg"
                      }
                     
-                      else if(workout.name == "push ups"){
-                        video.src = "https://www.youtube.com/watch?v=p243tCuvAfY";
-                      }
+                      
                       video.classList.remove("hide");
                       // Remove the selected class from all workout elements
                       const allWorkouts = document.querySelectorAll('.workout');
