@@ -6,6 +6,10 @@ const option = {
 	}
 };
 
+// This API Key doesn't work either: a77de724eemsh4679a30fe0c9288p19e087jsn70111bb6a912
+
+
+
 
 const submitButton3 = document.querySelector('.submit_button3');
 const food = document.querySelector('#food');
