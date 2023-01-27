@@ -15,6 +15,10 @@ body.dark-mode {
     background-image: radial-gradient(circle, black, black);
   }
 
+  /* th{
+    background-color: silver;
+  } */
+
 
 
 
@@ -632,9 +636,7 @@ button{
     color: whitesmoke;
 }
 
-#calories_title{
-    color: whitesmoke;
-}
+
 
   
 #motivation_container{

@@ -41,14 +41,17 @@ window.onload = function() {
       const headerRow = document.createElement('tr');
       const prevCell = document.createElement('th');
       prevCell.innerHTML = '<';
+      prevCell.style.backgroundColor = 'whitesmoke';
       headerRow.append(prevCell);
       const titleCell = document.createElement('th');
       titleCell.colSpan = 5;
       const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
       titleCell.innerHTML = months[currentMonth] + ' ' + currentYear;
+      titleCell.style.backgroundImage = 'radial-gradient(circle, red, whitesmoke)';
       headerRow.append(titleCell);
       const nextCell = document.createElement('th');
       nextCell.innerHTML = '>';
+      nextCell.style.backgroundColor = 'whitesmoke)';
       headerRow.append(nextCell);
       table.append(headerRow);
   
@@ -92,11 +95,16 @@ window.onload = function() {
           const calendarContainer = document.querySelector('#calendar');
           calendarContainer.innerHTML = '';
           calendarContainer.append(table);
-        }
+    }
+  
       
         // Update the calendar for the first time
         updateCalendar();
-      }
+        
+}
+      
+
+
       
   
 
