@@ -986,6 +986,111 @@ button{
     
     }
 
+    h3{
+        margin-left:10px;
+        font-size: 12px;
+    }
+
+    #body_part, #difficulty_level, #submit_button{
+        font-size: 9px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    #calories_maintence {
+        width: 72%;
+        margin-left: 10px;
+        padding-left: 1.5%;
+        padding-top: -5px;
+        padding-bottom: 8px;
+        box-shadow: 0px -10px 10px 5px #00648b, 10px 0px 10px 5px #00648b, -10px 0px 10px 5px #00648b;
+        font-size: 20px;
+    }
+
+    #check_cal_maintence {
+        font-size: 14px;
+    }
+
+    p {
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: -11px;
+        text-align: justify;
+        font-size: 10px;
+
+        /* might need require id */
+    }
+
+    #Metric_Measurement {
+        display: grid;
+        margin-top: -25px;
+        margin-left: 86px;
+    }
+
+    label{
+        font-size: 10px;
+    }
+
+    .genders{
+        font-size: 10px;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: -5px;
+
+    }
+
+    #activity_level1{
+        font-size: 9px;
+        width: 200px;
+    }
+
+    .submit_button2{
+        font-size: 10px;
+        
+    }
+
+    #food{
+        width: 100px;
+    }
+
+    #food_input{
+        font-size: 9px;
+    }
+
+    /* #US_Measurement, #Metric_Measurement {
+        display: inline-block;
+    } */
+
+    #age{
+        font-size: 8px;
+    }
+
+    #height{
+        font-size: 8px;
+        margin-top: 2%;
+    }
+
+    #height2{
+        font-size: 8px;
+        margin-top: 2%;
+    }
+
+    #weight{
+        font-size: 8px;
+        margin-top: 2%;
+    }
+
+    #calories_title{
+        color: black;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .submit_button3{
+        font-size: 9px;
+        margin-left: 10px;
+    }
+    
     
 
 }

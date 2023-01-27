@@ -132,7 +132,23 @@ submitButton.addEventListener('click', (event) => {
                     
                     if (workout.name == "Gorilla Chin/Crunch") {
                       video.contentWindow.location.href = "https://www.youtube.com/embed/5LZEO-tQ5Rg"
-                     }
+                    }
+                    
+                    if (workout.name == "Crunch - Hands Overhead") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/XbrA2n8aEHE"
+                    }
+
+                    if (workout.name == "Bosu Ball Cable Crunch With Side Bends") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/4mIbpBoWuWo"
+                    }
+
+                    if (workout.name == "Stomach Vacuum") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/14veOCV46z8"
+                    }
+
+                    if (workout.name == "Butt-Ups") { 
+                      video.contentWindow.location.href = "https://www.youtube.com/embed/8myvQaaDlUU"
+                    }
                     
                       
                       video.classList.remove("hide");

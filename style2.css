@@ -269,3 +269,1105 @@ p{
     margin-left: 10px;
 } */
 
+/* THESE ARE THE UPDATES ONE MORE PAGE TO UPDATE */
+
+body{
+    background-color: rgb(0, 186, 253);
+    background-image: radial-gradient(circle, rgb(17, 174, 213), whitesmoke);
+    
+}
+
+#logo_container{
+    
+    background: url(../images/logo.png) no-repeat;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: span 2;
+    width: 40%;
+    height: 40%;
+    margin: 5px;
+    padding: 5px;
+    justify-content: left;
+    align-items: left;
+
+}
+
+#logo{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+
+
+
+
+
+#home, #about, #contact, #get_started{
+    display: inline-block;
+    margin-right: 2%;
+    font-size: 20px;
+    /* border: 2px solid red; */
+}
+
+#home{
+    margin-left: -30px;
+}
+
+#home a, #about a, #contact a #get_started a{
+    color: purple;
+    text-decoration: none;
+    /* why doesn't this work */
+}
+
+#home :hover, #about :hover, #contact :hover #get_started :hover{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+.red > a {
+    color: red;
+    text-decoration: none;
+}
+
+#calories_maintence{
+    /* border: 2px solid red; */
+    width: 37%;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 0px -10px 10px 5px #00648b, 10px 0px 10px 5px #00648b, -10px 0px 10px 5px #00648b;
+    border-radius: 30px;
+
+}
+
+#check_food_calories{
+    box-shadow: 0px -10px 10px 5px #00648b, 10px 0px 10px 5px #00648b, -10px 0px 10px 5px #00648b;
+    width: 25%;
+    height: 10%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 10px;
+    border-radius: 30px;
+
+}
+
+#food{
+    margin-left: 10px;
+}
+
+#US_Measurement, #Metric_Measurement{
+    display: inline-block;
+}
+
+
+
+#six_months_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 90%;
+    height: 90%;
+    grid-gap: 10px;
+
+}
+
+#six_months, 
+#mom_weight_loss, 
+#personal_trainer,
+#ww,
+#japanesemodel,
+#seventhree,
+#buzz,
+#aa_weight_loss,
+#bmwl{
+    width: 100%;
+    height: 100%;
+}
+
+#plan{
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+footer{
+    color: goldenrod;
+}
+
+.top_button {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    display: none;
+}
+
+button{
+    display: grid;
+    justify-content: right;
+    background-color: whitesmoke;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    margin-left: 85%;
+
+}
+
+#instructions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 90%;
+    height: 90%;
+    grid-gap: 10px;
+    text-align: justify;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid red;
+}
+
+th, td {
+    padding: 8px;
+    border: 2px solid red;
+}
+
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+}
+
+#prev, #next {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#prev:hover, #next:hover {
+    background-color: #dddddd;
+}
+
+
+.youtube{
+    margin-bottom: 5px;
+}
+
+
+
+.facebook:hover, 
+.instagram:hover, 
+.twitter:hover, 
+.youtube:hover, 
+.tik_tok:hover, 
+.snapchat:hover, 
+.linkedin:hover{
+    border: 2px solid red;
+}
+
+#video{
+    margin: 10px;
+    border-radius: 30px;
+    
+}
+
+#workout_form{
+    margin-left: 10px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: goldenrod;
+    margin-top: -5px;
+    margin-left: 7px;
+    padding-left: 1.5%;
+    width: 20%;
+    
+}
+
+#click-for-exercise{
+    margin-left: 10px;
+}
+
+#instructions{
+    margin-left: 10px;
+}
+
+#response-section{
+margin-left: 10px;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+/* #submit_button{
+    margin-left: 10px;
+} */
+
+
+
+
+
+
+/* #slogan{
+    width: 15%;
+    border: 2px solid red;
+} */
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: span 2;
+    grid-column-end: 2;
+    width: 40%;
+    margin-top: 20%;
+    
+    /* border: 2px solid yellow; */
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    
+}
+
+
+#workout_container{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: span 2;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#man_woman_gym{
+    width: 60%;
+    height: 100%;
+}
+
+
+/* #workout_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* create 2 columns */
+    /* grid-template-rows: 1fr; create 1 row */
+/* } */ 
+
+/* #man_woman_gym {
+    grid-column: 1/2; /* place the image in the first column */
+/* } */ 
+
+
+
+footer{
+    color: goldenrod;
+}
+
+button{
+    display: grid;
+    justify-content: right;
+    background-color: whitesmoke;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    margin-left: 85%;
+
+}
+
+#food_input {
+    color: whitesmoke;
+}
+
+#calories_title{
+    color: whitesmoke;
+}
+
+  
+#motivation_container{
+    /* border: 2px solid rgb(13, 255, 0); */
+    display: grid;
+    /* grid-template-columns: span 2; */
+    width: 35%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 62%;
+    margin-top: -42%;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
+
+}
+
+#motivation{
+    color: whitesmoke;
+    font-size: 300%;
+    
+    
+    
+}
+
+#home, #about, #contact, #get_started{
+    display: inline-block;
+    margin-right: 2%;
+    font-size: 20px;
+
+}
+
+#home a, #about a, #contact a, #get_started a{
+    color: purple;
+    text-decoration: none;
+    /* why doesn't this work */
+}
+
+#home :hover, #about :hover, #contact :hover, #get_started :hover{
+    color: red;
+    text-decoration: none;
+}
+
+.red > a {
+    color: red;
+    text-decoration: none;
+}
+
+.top_button {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    display: none;
+    margin-bottom: 70px;
+}
+
+
+
+.youtube{
+    margin-bottom: 5px;
+}
+
+
+
+.facebook:hover, 
+.instagram:hover, 
+.twitter:hover, 
+.youtube:hover, 
+.tik_tok:hover, 
+.snapchat:hover, 
+.linkedin:hover{
+    border: 2px solid red;
+}
+
+
+
+/* Screen sizes smaller than 1200px */
+
+@media (max-width: 1200px) {
+
+    #logo_container{
+    
+        background: url(../images/logo.png) no-repeat;
+        /* border: 2px solid red; */
+        display: grid;
+        grid-template-columns: span 2;
+        width: 60%;
+        height: 40%;
+        margin: 5px;
+        padding: 5px;
+        justify-content: left;
+        align-items: left;
+    
+    }
+
+ 
+    h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        color: goldenrod;
+        margin-top: -5px;
+        margin-left: 30px;
+        padding-left: 1.5%;
+        width: 40%;
+        font-size: 25px;
+    }
+
+    #home, #about, #contact, #get_started{
+        display: inline-block;
+        margin-right: 2%;
+        font-size: 36px;
+    
+    }
+
+    .container{
+        display: grid;
+        /* grid-template-columns: span 2; */
+        grid-column-end: 2;
+        width: 60%;
+        margin-top: 15%;
+        
+    }
+
+    #video{
+        margin: 10px;
+        border-radius: 30px;
+        width: 60%;
+    }
+
+    h3{
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    #home{
+        margin-left: -20px;
+    }
+
+    #body_part,
+    #difficulty_level,
+    #submit_button{
+        padding: 5px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    #calories_maintence{
+        width: 65%;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        box-shadow: 0px -10px 10px 5px #00648b, 10px 0px 10px 5px #00648b, -10px 0px 10px 5px #00648b;
+        border-radius: 30px;
+    
+    }
+
+    #check_food_calories{
+        box-shadow: 0px -10px 10px 5px #00648b, 10px 0px 10px 5px #00648b, -10px 0px 10px 5px #00648b;
+        width: 40%;
+        height: 10%;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        margin-left: 10px;
+        border-radius: 30px;
+    
+    }
+
+    #check_cal_maintence{
+        font-size: 35px;
+    }
+
+
+
+ 
+    #Metric_Measurement{
+        
+        display: grid;
+         margin-left: 222px;
+         margin-top: -63px;
+ 
+     }
+ 
+     p{
+         margin-left: 10px;
+         margin-right: 10px;
+         text-align: justify;
+         font-size: 25px;
+     }
+ 
+     label{
+         font-size: 20px;
+     }
+
+     #activity_level1{
+         font-size: 20px;
+     }
+
+     .submit_button2{
+         font-size: 20px;
+     }
+
+     .top_button{
+        position: fixed;
+        bottom: 50px;
+        right: 100px;
+        margin-bottom: 70px;
+
+     }
+
+     #check_cal_maintence{
+         font-size: 28px;
+     }
+
+
+
+
+}
+
+
+
+
+
+/* Screen sizes smaller than 992px */
+
+@media (max-width: 992px) {
+
+    h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        color: goldenrod;
+        margin-top: -5px;
+        margin-left: 20px;
+        padding-left: 1.5%;
+        width: 80%;
+        font-size: 30px;
+    }
+
+    #home, #about, #contact, #get_started{
+        display: inline-block;
+        margin-right: 2%;
+        font-size: 40px;
+    
+    }
+
+    #man_woman_gym{
+        width: 80%;
+        height: 100%;
+    }
+
+
+#motivation_container{
+    /* border: 2px solid rgb(13, 255, 0); */
+    display: grid;
+    /* grid-template-columns: span 2; */
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 10px;
+
+}
+
+.container{
+    display: grid;
+    /* grid-template-columns: span 2; */
+    grid-column-end: 2;
+    width: 78%;
+    margin-top: 5%;
+    
+}
+
+button{
+    display: grid;
+    /* justify-content: right; */
+    background-color: whitesmoke;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    margin-left: 5%;
+
+}
+
+.top_button {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    margin-bottom: 70px;
+}
+
+.facebook:hover, 
+.instagram:hover, 
+.twitter:hover, 
+.youtube:hover, 
+.tik_tok:hover, 
+.snapchat:hover, 
+.linkedin:hover{
+    border: 2px solid red;
+}
+
+    
+   
+}
+
+/* Screen sizes smaller than 900px */
+
+@media (max-width: 900px){
+
+    #calories_maintence{
+        width: 65%;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        box-shadow: 0px -10px 10px 5px #00648b, 10px 0px 10px 5px #00648b, -10px 0px 10px 5px #00648b;
+        border-radius: 30px;
+    
+    }
+
+    #check_food_calories{
+        box-shadow: 0px -10px 10px 5px #00648b, 10px 0px 10px 5px #00648b, -10px 0px 10px 5px #00648b;
+        width: 40%;
+        height: 10%;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        margin-left: 10px;
+        border-radius: 30px;
+    
+    }
+
+    #check_cal_maintence{
+        font-size: 35px;
+    }
+
+
+
+ 
+    #Metric_Measurement{
+        
+        display: grid;
+         margin-left: 222px;
+         margin-top: -86px;
+ 
+     }
+ 
+     p{
+         margin-left: 10px;
+         margin-right: 10px;
+         text-align: justify;
+         font-size: 25px;
+     }
+ 
+     label{
+         font-size: 20px;
+     }
+
+     #activity_level1{
+         font-size: 20px;
+     }
+
+     .submit_button2{
+         font-size: 20px;
+     }
+
+     .top_button{
+        position: fixed;
+        bottom: 50px;
+        right: 100px;
+        margin-bottom: 70px;
+
+     }
+
+
+}
+
+/* Screen sizes smaller than 800px */
+
+@media (max-width: 800px) {
+
+    #logo_container{
+        display: grid;
+        width: 70%;
+        height: 40%;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        color: goldenrod;
+        margin-top: -5px;
+        margin-left: 20px;
+        padding-left: 1.5%;
+        width: 80%;
+        font-size: 30px;
+    }
+
+
+    #home, #about, #contact, #get_started{
+        display: inline-block;
+        margin-right: 2%;
+        font-size: 40px;
+    }
+
+    #calories_maintence{
+        width: 75%;
+        margin-left: 10px;
+        padding-left: 1.5%;
+        padding-top: -5px;
+        padding-bottom: 8px;
+        box-shadow: 0px -10px 10px 5px #00648b, 10px 0px 10px 5px #00648b, -10px 0px 10px 5px #00648b;
+        font-size: 20px;
+    
+    }
+
+    #Metric_Measurement{
+        display: grid;
+        margin-top: -76px;
+        
+    }
+
+    #top_button{
+        position: fixed;
+        bottom: 50px;
+        right: 200px;
+        margin-bottom: 70px;
+    }
+
+    #activity_level1{
+        font-size: 20px;
+    }
+
+}
+
+/* Screen sizes smaller than 600px */
+@media (max-width: 600px) {
+    h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        color: goldenrod;
+        margin-top: -5px;
+        margin-left: 12px;
+        padding-left: 1.5%;
+        width: 80%;
+        font-size: 15px;
+    }
+
+
+#home, #about, #contact, #get_started{
+    display: inline-block;
+    margin-right: 1%;
+    font-size: 15px;
+
+}
+
+#home{
+    margin-left: -7%;
+}
+
+#man_woman_gym{
+    width: 80%;
+    height: 100%;
+}
+
+#motivation{
+    color: whitesmoke;
+    font-size: 100%;
+    margin-top: 100px;
+    
+}
+
+#motivation_container{
+    /* border: 2px solid rgb(13, 255, 0); */
+    display: grid;
+    /* grid-template-columns: span 2; */
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: -5%;
+    margin-top: -35%;
+    margin-bottom: 10px;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: span 2;
+    grid-column-end: 2;
+    width: 80%;
+    margin-top: 5%;
+    
+}
+
+button{
+    display: grid;
+    /* justify-content: right; */
+    background-color: whitesmoke;
+    color: red;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    margin-left: 60%;
+
+}
+
+
+#logo_container{
+    
+    background: url(../images/logo.png) no-repeat;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: span 2;
+    width: 80%;
+    height: 40%;
+    margin: 5px;
+    padding: 5px;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.top_button {
+  visibility: hidden;
+}
+
+.facebook, 
+.instagram, 
+.twitter,   
+.snapchat{
+    height: 30px;
+}
+
+.youtube{
+    height: 25px;
+}
+
+.tik_tok,
+.linkedin{
+    height: 35px;
+}
+
+.facebook:hover, 
+.instagram:hover, 
+.twitter:hover, 
+.youtube:hover, 
+.tik_tok:hover, 
+.snapchat:hover, 
+.linkedin:hover{
+    border: 2px solid red;
+}
+
+}
+
+/* Screen sizes smaller than 545px */
+
+@media (max-width: 545px){
+
+    #motivation_container{
+        /* border: 2px solid rgb(13, 255, 0); */
+        display: grid;
+        /* grid-template-columns: span 2; */
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        margin-left: -5%;
+        margin-top: -25%;
+        margin-bottom: 10px;
+    
+    }
+
+    #home{
+        margin-left: -4%;
+    }
+
+
+
+}
+
+/* Screen sizes smaller than 400px */
+
+@media (max-width: 400px){
+
+    h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        color: goldenrod;
+        margin-top: -5px;
+        margin-left: 12px;
+        padding-left: 1.5%;
+        width: 80%;
+        font-size: 10px;
+    }
+
+    #home{
+        margin-left: -10%;
+    }
+
+    #motivation_container{
+        display: grid;
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        margin-left: -5%;
+        margin-top: -35%;
+        margin-bottom: 10px;
+    
+    }
+
+    #story{
+        font-size: 12px;
+        width: 100%;
+        height: 100%;
+        margin-top: -5%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-family: Arial, Helvetica, sans-serif;
+        color: whitesmoke;
+        text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
+        margin-left: 10px;
+    }
+
+    button{
+        display: grid;
+        /* justify-content: right; */
+        background-color: whitesmoke;
+        color: red;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 100px;
+        border: 1px solid transparent;
+        margin-left: 60%;
+    
+    }
+
+    h3{
+        margin-left:10px;
+        font-size: 12px;
+    }
+
+    #body_part, #difficulty_level, #submit_button{
+        font-size: 9px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    #calories_maintence {
+        width: 72%;
+        margin-left: 10px;
+        padding-left: 1.5%;
+        padding-top: -5px;
+        padding-bottom: 8px;
+        box-shadow: 0px -10px 10px 5px #00648b, 10px 0px 10px 5px #00648b, -10px 0px 10px 5px #00648b;
+        font-size: 20px;
+    }
+
+    #check_cal_maintence {
+        font-size: 14px;
+    }
+
+    p {
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: -11px;
+        text-align: justify;
+        font-size: 10px;
+
+        /* might need require id */
+    }
+
+    #Metric_Measurement {
+        display: grid;
+        margin-top: -25px;
+        margin-left: 86px;
+    }
+
+    label{
+        font-size: 10px;
+    }
+
+    .genders{
+        font-size: 10px;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: -5px;
+
+    }
+
+    #activity_level1{
+        font-size: 9px;
+        width: 200px;
+    }
+
+    .submit_button2{
+        font-size: 10px;
+        
+    }
+
+    #food{
+        width: 100px;
+    }
+
+    #food_input{
+        font-size: 9px;
+    }
+
+    /* #US_Measurement, #Metric_Measurement {
+        display: inline-block;
+    } */
+
+    #age{
+        font-size: 8px;
+    }
+
+    #height{
+        font-size: 8px;
+        margin-top: 2%;
+    }
+
+    #height2{
+        font-size: 8px;
+        margin-top: 2%;
+    }
+
+    #weight{
+        font-size: 8px;
+        margin-top: 2%;
+    }
+
+    #calories_title{
+        color: black;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .submit_button3{
+        font-size: 9px;
+        margin-left: 10px;
+    }
+    
+    #activity_level2{
+        font-size: 9px;
+        width: 200px;
+    }
+    
+
+}
