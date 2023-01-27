@@ -79,9 +79,10 @@ h4{
     align-items: flex-start;
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
-    text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     margin-left: 10px;
 }
+
 
 
 
@@ -569,9 +570,10 @@ button{
         align-items: flex-start;
         font-family: Arial, Helvetica, sans-serif;
         color: whitesmoke;
-        text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
         margin-left: 10px;
     }
+    
 
     button{
         display: grid;
