@@ -1369,5 +1369,10 @@ button{
         width: 200px;
     }
     
+    #plan {
+        margin-top: 10px;
+        font-size: 120%;
+        font-weight: bolder;
+    }
 
 }
