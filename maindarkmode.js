@@ -3,5 +3,6 @@ function myFunction() {
     element.classList.toggle("dark-mode");
 }
 
+console.log('hello darkness my old friend')
 
 

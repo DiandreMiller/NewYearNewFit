@@ -14,8 +14,11 @@ fetch('https://motivation-quotes-api.p.rapidapi.com/api/quotes', options)
             const motivationalQuotes = document.querySelector('#motivation');
             motivationalQuotes.textContent = quote.quote;
         })
-        .catch(err => console.error(err));
+    
+        
     })
+
+    .catch(err => console.error(err));
 	
     //Function to go to HTML page with workout selected by the user when I click on the button
 

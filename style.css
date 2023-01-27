@@ -5,9 +5,10 @@ body{
     
 }
 
-.dark-mode {
+body.dark-mode {
     background-color: black;
     color: white;
+    background-image: radial-gradient(circle, black, black);
   }
 
 
@@ -174,10 +175,11 @@ button{
     /* why doesn't this work */
 }
 
-#home :hover, #about :hover, #contact :hover, #get_started :hover{
+#home a:hover, #about a:hover, #contact a:hover, #get_started a:hover{
     color: red;
     text-decoration: none;
 }
+
 
 .red > a {
     color: red;

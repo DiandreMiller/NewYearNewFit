@@ -9,10 +9,12 @@ body{
     
 }
 
-.dark-mode {
+body.dark-mode {
     background-color: black;
     color: white;
+    background-image: radial-gradient(circle, black, black);
   }
+
 
 
 
