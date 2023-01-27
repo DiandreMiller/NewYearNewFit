@@ -13,7 +13,7 @@
 > The about page discusses the app's features as well as the plan for the future of the app. The contact me page would allow the user to contact me for a more specialized plan.
 
 
-> [Click here](https://elegant-pithivier-8639db.netlify.app/) to view my portfolio project.
+> [Click here](https://new-year-new-fit.netlify.app/) to view my portfolio project.
 
 [Click here](https://us06web.zoom.us/rec/share/IbUvHR2wWVJ7e8UlW7TAQiNd5Z9jFYjhhGVpG4Iv6__AJt-qkF0avU9v-NWIwKXK.npUymQRk8fMNG6D6) to view a video where I explain the functionality of my project. Pass code: ZAvP7hE*
 
