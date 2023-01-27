@@ -1424,8 +1424,9 @@ button{
     
     #plan {
         margin-top: 10px;
-        font-size: 120%;
+        font-size: 112%;
         font-weight: bolder;
+        text-align: start;
     }
 
     #instructions {
