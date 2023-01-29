@@ -10,15 +10,22 @@ body{
 }
 
 body.dark-mode {
-    background-color: black;
+    /* background-color: black; */
     color: white;
     background-image: radial-gradient(circle, black, black);
   }
+
+/* a{
+    color: whitesmoke;
+} */
 
   /* th{
     background-color: silver;
   } */
 
+  header nav{
+    margin-left: 2%;
+  }
 
 
 
@@ -1272,7 +1279,7 @@ button{
     }
 
     #home{
-        margin-left: -10%;
+        margin-right: -10%;
     }
 
     #motivation_container{

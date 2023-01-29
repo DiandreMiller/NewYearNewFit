@@ -1,4 +1,4 @@
-window.onload = function() {
+
     // Get the current date
     const currentDate = new Date();
   
@@ -101,7 +101,7 @@ window.onload = function() {
         // Update the calendar for the first time
         updateCalendar();
         
-}
+
       
 
 
